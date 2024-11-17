@@ -29,7 +29,7 @@ RUN \
   mkdir -p /tmp/oscam && \
   curl -o \
     /tmp/oscam.tar.gz -L \
-    "https://git.streamboard.tv/common/oscam/-/archive/${OSCAM_VERSION}/oscam-${OSCAM_VERSION}.tar.gz" && \
+    "https://github.com/harryberlin/hassio-addons/raw/refs/heads/main/oscam-11854.tar.gz" && \
   tar xf \
     /tmp/oscam.tar.gz -C \
     /tmp/oscam --strip-components=1 && \
